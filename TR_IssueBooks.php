@@ -20,7 +20,7 @@ $result = mysqli_query($db,$qry);
 $result1 = mysqli_query($db,$qryA);
 
 echo "Book Issued";
-
+header("location:index.php");
  ?>
   </body>
 </html>

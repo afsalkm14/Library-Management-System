@@ -69,13 +69,15 @@
             <div class="page-sidebar sidebar">
                 <div class="page-sidebar-inner slimscroll">
                     <ul class="menu accordion-menu">
-                        <li><a href="SearchBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Search Books</p></a></li>
-                        <li><a href="EnterBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Add Book</p></a></li>
-                        <li><a href="SearchStudents.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Search Student</p></a></li>
-                        <li><a href="EnterStudents.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Add Student</p></a></li>
-                        <li><a href="IssueBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Issue Books</p></a></li>
-                        <li><a href="ReturnBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Return Books</p></a></li>
-
+                      <li><a href="index.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Dashboard</p></a></li>
+                      <li><a href="SearchBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Search Books</p></a></li>
+                      <li><a href="EnterBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Add Book</p></a></li>
+                      <li><a href="SearchStudents.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Search Student</p></a></li>
+                      <li><a href="EnterStudents.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Add Student</p></a></li>
+                      <li><a href="IssueBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Issue Books</p></a></li>
+                      <li><a href="ReturnBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Return Books</p></a></li>
+                      <li><a href="overdue.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Over Due</p></a></li>
+                      <li><a href="RESTAPI.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>API</p></a></li>
 
                     </ul>
                 </div><!-- Page Sidebar Inner -->
@@ -85,8 +87,8 @@
                                   <h3 class="breadcrumb-header">Add New Book</h3>
                                   <div class="page-breadcrumb">
                                       <ol class="breadcrumb breadcrumb-with-header">
-                                          <li><a href="index.html">Students</a></li>
-                                          <li><a href="#">Add Students</a></li>
+                                          <li><a>Book Details</a></li>
+
 
                                       </ol>
                                   </div>
@@ -103,7 +105,7 @@
 <div class="form-group">
   <label for="">
     Enter Book ISBN <label>
-      <input type="text" class="form-control" name="isbn" size="50">
+      <input type="text" class="form-control" name="isbn" size="50" required>
 </div>
 
 <div class="form-group">
@@ -115,25 +117,25 @@
 <div class="form-group">
       <label for="">
         Enter Author <label>
-          <input type="text" class="form-control" name="author" size="50">
+          <input type="text" class="form-control" name="author" size="50" required>
 </div>
 
 <div class="form-group">
       <label for="">
         Enter Edition <label>
-          <input type="text" class="form-control" name="edition" size="50">
+          <input type="text" class="form-control" name="edition" size="50" required>
 </div>
 
 <div class="form-group">
       <label for="">
         Enter Publisher <label>
-          <input type="text" class="form-control" name="publisher" size="50">
+          <input type="text" class="form-control" name="publisher" size="50" required>
 </div>
 
 <div class="form-group">
       <label for="">
         Number of pages <label>
-          <input type="number" class="form-control" name="pages" size="50" required>
+          <input type="number" class="form-control" name="pages" size="50" required required>
 </div>
 
 
@@ -141,7 +143,7 @@
 <div class="form-group">
       <label for="">
         Number of Copies <label>
-          <input type="number" class="form-control" value="1" name="QTY" size="50">
+          <input type="number" class="form-control" value="1" name="QTY" size="50" required>
 </div>
 
 

@@ -69,12 +69,16 @@
             <div class="page-sidebar sidebar">
                 <div class="page-sidebar-inner slimscroll">
                     <ul class="menu accordion-menu">
+                        <li><a href="index.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Dashboard</p></a></li>
                         <li><a href="SearchBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Search Books</p></a></li>
                         <li><a href="EnterBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Add Book</p></a></li>
                         <li><a href="SearchStudents.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Search Student</p></a></li>
                         <li><a href="EnterStudents.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Add Student</p></a></li>
                         <li><a href="IssueBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Issue Books</p></a></li>
                         <li><a href="ReturnBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Return Books</p></a></li>
+                        <li><a href="overdue.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Over Due</p></a></li>
+                        <li><a href="RESTAPI.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>API</p></a></li>
+
 
 
                     </ul>
@@ -82,7 +86,7 @@
             </div><!-- Page Sidebar -->
             <div class="page-inner">
               <div class="page-title">
-                                  <h3 class="breadcrumb-header">Dashboard</h3>
+                                  <h3 class="breadcrumb-header">Dashboard | Admin</h3>
                                   <div class="page-breadcrumb">
                                       <ol class="breadcrumb breadcrumb-with-header">
                                           <li><a href="index.php">LMS</a></li>
@@ -116,7 +120,7 @@
 <div class="col-md-3">
 <div class="panel panel-red">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">Stock In Hand</h3>
+                                    <h3 class="panel-title">Total Stock In Hand</h3>
                                 </div>
                                 <div class="panel-body">
                                   <h1><?php

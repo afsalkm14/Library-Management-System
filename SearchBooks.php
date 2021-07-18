@@ -69,13 +69,15 @@
             <div class="page-sidebar sidebar">
                 <div class="page-sidebar-inner slimscroll">
                     <ul class="menu accordion-menu">
-                        <li><a href="SearchBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Search Books</p></a></li>
-                        <li><a href="EnterBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Add Book</p></a></li>
-                        <li><a href="SearchStudents.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Search Student</p></a></li>
-                        <li><a href="EnterStudents.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Add Student</p></a></li>
-                        <li><a href="IssueBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Issue Books</p></a></li>
-                        <li><a href="ReturnBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Return Books</p></a></li>
-
+                      <li><a href="index.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Dashboard</p></a></li>
+                      <li><a href="SearchBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Search Books</p></a></li>
+                      <li><a href="EnterBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Add Book</p></a></li>
+                      <li><a href="SearchStudents.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Search Student</p></a></li>
+                      <li><a href="EnterStudents.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Add Student</p></a></li>
+                      <li><a href="IssueBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Issue Books</p></a></li>
+                      <li><a href="ReturnBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Return Books</p></a></li>
+                      <li><a href="overdue.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Over Due</p></a></li>
+                      <li><a href="RESTAPI.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>API</p></a></li>
 
                     </ul>
                 </div><!-- Page Sidebar Inner -->
@@ -85,8 +87,8 @@
                                   <h3 class="breadcrumb-header">Search Books</h3>
                                   <div class="page-breadcrumb">
                                       <ol class="breadcrumb breadcrumb-with-header">
-                                          <li><a href="index.php">Students</a></li>
-                                          <li><a href="#">Add Students</a></li>
+                                          <li><a href="index.php">Search </a></li>
+                                          <li><a href="#">Book by Title</a></li>
 
                                       </ol>
                                   </div>
@@ -101,7 +103,7 @@
 
   <div class="form-group">
     <label for="">
-      Enter Search Query</label>
+      Enter Query</label>
      <input type="text" class="form-control" name="search" size="50">
   </div>
 

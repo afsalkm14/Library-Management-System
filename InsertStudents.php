@@ -16,6 +16,7 @@ $query = "INSERT INTO students_info(RNO,SNAME,DEPT,SEMESTER,EMAIL,FINE) VALUES (
 $result = mysqli_query($db,$query);
 
 echo "Inserted";
+header("location:index.php");
 
  ?>
   </body>

@@ -69,13 +69,15 @@
             <div class="page-sidebar sidebar">
                 <div class="page-sidebar-inner slimscroll">
                     <ul class="menu accordion-menu">
+                      <li><a href="index.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Dashboard</p></a></li>
                       <li><a href="SearchBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Search Books</p></a></li>
                       <li><a href="EnterBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Add Book</p></a></li>
                       <li><a href="SearchStudents.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Search Student</p></a></li>
                       <li><a href="EnterStudents.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Add Student</p></a></li>
                       <li><a href="IssueBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Issue Books</p></a></li>
                       <li><a href="ReturnBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Return Books</p></a></li>
-
+                      <li><a href="overdue.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Over Due</p></a></li>
+                      <li><a href="RESTAPI.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>API</p></a></li>
 
 
                     </ul>
@@ -86,8 +88,8 @@
                                   <h3 class="breadcrumb-header">Add New Student</h3>
                                   <div class="page-breadcrumb">
                                       <ol class="breadcrumb breadcrumb-with-header">
-                                          <li><a href="index.html">Students</a></li>
-                                          <li><a href="#">Add Students</a></li>
+                                          <li>Student Deatils</a></li>
+
 
                                       </ol>
                                   </div>
@@ -107,32 +109,32 @@
                     <div class="form-group">
                     <label for="">
                     Enter Register Number</label>
-                     <input type="text" class="form-control" name="RNO" size="50">
+                     <input type="text" class="form-control" name="RNO" size="50" required>
                     </div>
 
 
                     <div class="form-group">
                     <label for="">
                     Enter Name</label>
-                      <input type="text" class="form-control" name="SNAME" size="50">
+                      <input type="text" class="form-control" name="SNAME" size="50" required>
                     </div>
 
                     <div class="form-group">
                     <label for="">
                     Enter Department</label>
-                       <input type="text" class="form-control" name="DEPT" size="50">
+                       <input type="text" class="form-control" name="DEPT" size="50" required>
                     </div>
 
                     <div class="form-group">
                     <label for="">
                     Enter Semester</label>
-                       <input type="text" class="form-control" name="SEMESTER" size="50">
+                       <input type="text" class="form-control" name="SEMESTER" size="50" required>
                     </div>
 
                     <div class="form-group">
                     <label for="">
                     Enter Email</label>
-                       <input type="text" class="form-control" name="EMAIL" size="50">
+                       <input type="text" class="form-control" name="EMAIL" size="50" required >
                     </div>
 
 

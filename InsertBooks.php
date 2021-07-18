@@ -20,6 +20,7 @@ $query = "insert into books_info(isbn,title,author,edition,publisher,qty,pages) 
 $result = mysqli_query($db,$query);
 
 echo "Inserted";
+header("location:index.php");
 
  ?>
   </body>
