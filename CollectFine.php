@@ -78,6 +78,7 @@
                       <li><a href="ReturnBooks.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Return Books</p></a></li>
                       <li><a href="overdue.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Over Due</p></a></li>
                       <li><a href="RESTAPI.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>API</p></a></li>
+                      <li><a href="CollectFine.php" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Fine Collection</p></a></li>
 
                     </ul>
                 </div><!-- Page Sidebar Inner -->
